@@ -29,7 +29,6 @@
         <?php
             if(isset($_SESSION['uname'])){
                 echo $_SESSION['uname'];
-                // echo "hello";
             }else{
                 echo '<a href="'.$inadd.'">Login/Regisster</a>';
             }

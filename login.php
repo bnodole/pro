@@ -10,7 +10,7 @@
         $check = mysqli_fetch_array($result);
         
         if (!isset($check)){
-            echo "<script>alert('Invalid username or password')</script>";
+            echo "<script>alert('Invalid usernae or passwomrd')</script>";
         }
         else{
             $_SESSION['uname'] = $unam;
