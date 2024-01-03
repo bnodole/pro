@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS User (Username varchar(255),Email varchar(255) PRIMARY KEY,Password varchar(255));
